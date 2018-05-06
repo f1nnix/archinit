@@ -21,4 +21,5 @@ grub-install --target=i386-pc /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg"
 echo $CHROOT_CMD > /mnt/root/install.sh
 arch-chroot /mnt /root/install.sh
-reboot
+
+#reboot
