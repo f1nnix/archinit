@@ -1,0 +1,2 @@
+time
+echo 'hello'
